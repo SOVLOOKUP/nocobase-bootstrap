@@ -1,6 +1,7 @@
 {
   "name": "my-nocobase-app",
   "private": true,
+  "bin": "./main.mjs",
   "workspaces": [
     "packages/**/*"
   ],
@@ -166,6 +167,7 @@
     "@nocobase/telemetry": "^1.5.4",
     "@nocobase/test": "^1.5.3",
     "@nocobase/utils": "^1.5.4",
+    "@types/node": "^22.13.1",
     "antd": "5.23.4",
     "pm2": "^5.4.3",
     "react-imported-component": "^6.5.4",
